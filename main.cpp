@@ -1,17 +1,6 @@
-#include <iostream>
+#include "counter.cpp"
 #include <thread>
 #include <chrono>
-#include <limits.h>
-
-void countFunc(int* ptrToInt, size_t times) {  	
-   /*
-    The thread t1 increments an integer n times
-   */ 
-   while(times > 0) {
-   	*ptrToInt += 1;
-    	times-- ;
-   } 
-}
 
 int main() { 
    using namespace std::literals::chrono_literals;
@@ -25,6 +14,7 @@ int main() {
 
    auto start = std::chrono::high_resolution_clock::now();
   
+   // countFunc() is implemented inside counter.cpp
    std::thread t1(countFunc, number, n);
 
    // Seconds are tunable
@@ -38,7 +28,7 @@ int main() {
    // Calculate time
    std::chrono::duration<float> duration = end - start;
    std::cout << duration.count() << "s " << std::endl;
-   std::cout << "TM main counted " << *number; 
+   std::cout << "TM M counted " << *number; 
 	std::cout << " times in " << duration.count() << " second\n";
 
    delete[] number;
