@@ -55,8 +55,8 @@ __________________
 __________________
 |                |
 |   Assembler    |   // $ g++ -C main.cpp  
-|                |  
-|________________|
+|                |  // Note2: In our experiment we use <thread> library, so use this command:
+|________________|  //$ g++ -C main.cpp -pthread -std=c++14
 
         |
         |
@@ -70,7 +70,7 @@ __________________
 __________________
 |                |
 |     Linker     |    // The Linker links source files and libraries
-|                |    // And produces final executable file, main. 
+|                |    // and produces final executable file, main. 
 |________________|
 
         |
