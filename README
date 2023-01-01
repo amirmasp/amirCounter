@@ -11,13 +11,74 @@ Experiment:
 Instruction to run the program:
   $ g++ main.cpp -o main -pthread -std=c++14
   $ ./main
-    Notice that counter.cpp is Linked using Linker <>
+
+    Note1: that counter.cpp is Linked using Linker <>
     to main.cpp, thus you only use main.cpp in the 
     above compile command!    
 
-Note1: main.s is Assembly Language file which is
-created by Compiler given main.cpp is already preprocessed.
-    $ g++ -S main.cpp
+Compilation Process:
 
-Note2: a.out is created by Assembler and is a machine Language
-    $ g++ -C main.cpp
+    main.cpp    // The Source code 
+        |       // $ ls -l main.cpp
+        |       size: 894
+       \|/
+        |
+__________________
+|                |
+|  Preprocessor  |    $ g++ -E main.cpp > main.i 
+|  (precompiler) |    
+|________________|      
+        |
+        |
+       \|/
+        |
+      main.i   // The preprocessed code
+        |      // $ ls -l main.i
+        |      size: 999555
+       \|/
+        |
+__________________
+|                |
+|   Compiler     |    $ g++ -S main.cpp  
+|                |  
+|________________|
+
+        |
+        |
+       \|/
+        |
+      main.s   // The Assembly code
+        |      // $ ls -l main.s 
+        |      size: 106546
+       \|/
+        |
+__________________
+|                |
+|   Assembler    |   // $ g++ -C main.cpp  
+|                |  
+|________________|
+
+        |
+        |
+       \|/
+        |
+      a.out   // Object code (the machine code, binary code)
+        |     // ls -l a.out
+        |     size: 36464
+       \|/
+        |
+__________________
+|                |
+|     Linker     |    // The Linker links source files and libraries
+|                |    // And produces final executable file, main. 
+|________________|
+
+        |
+        |
+       \|/
+        |
+      main     // The Executable (The Runnable File)
+               // $ ls -l main
+               size: 36672 
+
+   
