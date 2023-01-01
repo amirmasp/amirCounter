@@ -6,9 +6,18 @@ Experiment:
     in a 2nd thread! (1st thread is the Main thread):
         "TM Main counted 600000000 times in 1.0003 second!"
 
-    Note: Human being can count up to 10 in the same amount of time!    
+    Note0: Human being can count up to 10 in the same amount of time!    
 
 Instruction to run the program:
   $ g++ main.cpp -o main -pthread -std=c++14
   $ ./main
-   
+    Notice that counter.cpp is Linked using Linker <>
+    to main.cpp, thus you only use main.cpp in the 
+    above compile command!    
+
+Note1: main.s is Assembly Language file which is
+created by Compiler given main.cpp is already preprocessed.
+    $ g++ -S main.cpp
+
+Note2: a.out is created by Assembler and is a machine Language
+    $ g++ -C main.cpp
