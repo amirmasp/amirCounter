@@ -18,14 +18,14 @@ in a 2nd thread! (1st thread is the Main thread):
 
 ## Compilation Process:
    main.cpp: The Source code         
-   `$ ls -l main.cpp`
-   894
+   `$ ls -l main.cpp` 
    
+         main.cpp
      ______|______
     |Preprocessor|
     |____________| 
            |  
-   main.i
+         main.i
     
 |                |
 |  Preprocessor  |    $ g++ -E main.cpp > main.i 
