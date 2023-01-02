@@ -27,7 +27,7 @@ graph TD;
 ```
 ### Source Code
 `main.cpp`
- ##### Note1: counter.cpp code is embedded into main.cpp code. 
+ Note1: counter.cpp code is embedded into main.cpp code. 
 
 ### Preprocessor
 Takes the source code, main.cpp
