@@ -34,7 +34,7 @@ written by "AmirM"
  Note1: counter.cpp code is embedded into main.cpp source code. 
 
 ### Preprocessor
-A Preprocessor function Transforms the Source code into a preprocessed code
+A Preprocessor function Transforms the source code `main.cpp` into a preprocessed code
 `main.i`
 
 `$ g++ -E main.cpp > main.i`
