@@ -14,7 +14,7 @@ in a 2nd thread! (1st thread is the Main thread):
 
 `$ ./main`
 
- #### Note1: counter.cpp code is embedded into main.cpp code.   
+  
 
 ## Compilation Process
 Compiation flow chart:
@@ -27,6 +27,7 @@ graph TD;
 ```
 ### Source Code
 `main.cpp`
+ ##### Note1: counter.cpp code is embedded into main.cpp code. 
 
 ### Preprocessor
 Takes the source code, main.cpp
