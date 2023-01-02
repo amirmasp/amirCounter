@@ -8,11 +8,11 @@ The main executable Counts about 600 million times
 in a 2nd thread! (1st thread is the Main thread):
 "TM Main counted 600000000 times in 1.0003 second!"
 
-### Note 0: Human being can count up to 10 in the same amount of time!    
+##### Note 0: Human being can count up to 10 in the same amount of time!    
 
 Instruction to run the program:
-  $ g++ main.cpp -o main -pthread -std=c++14
-  $ ./main
+`$ g++ main.cpp -o main -pthread -std=c++14`
+`$ ./main`
 
     Note1: that counter.cpp is Linked using Linker <>
     to main.cpp, thus you only use main.cpp in the 
