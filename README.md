@@ -1,4 +1,4 @@
-# Experiment: 
+# Experiment : HOW Fast Would You Count Up? 
 ## Problem
 How many times your TM (your personal Computer) can 
 count in a limited time (Assume for 1 Second)?
@@ -7,18 +7,16 @@ count in a limited time (Assume for 1 Second)?
 The main executable Counts about 600 million times
 in a 2nd thread! (1st thread is the Main thread):
 "TM Main counted 600000000 times in 1.0003 second!"
-##### Note 0: Human being can count up to 10 in the same amount of time!    
+#### Note 0: Human being can count up to 10 in the same amount of time!    
 
 ## Instruction to run the program
 `$ g++ main.cpp -o main -pthread -std=c++14`
 
 `$ ./main`
 
-    Note1: that counter.cpp is Linked using Linker <>
-    to main.cpp, thus you only use main.cpp in the 
-    above compile command!    
+ #### Note1: counter.cpp code is embedded into main.cpp code.   
 
-Compilation Process:
+##Compilation Process:
 
     main.cpp    // The Source code 
         |       // $ ls -l main.cpp
