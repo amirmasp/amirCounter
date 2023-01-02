@@ -17,12 +17,14 @@ in a 2nd thread! (1st thread is the Main thread):
  #### Note1: counter.cpp code is embedded into main.cpp code.   
 
 ## Compilation Process:
-   main.cpp    
+   main.cpp  
+   
         |    // The Source code 
         |       // $ ls -l main.cpp
         |       size: 894
        \|/
         |
+        
 __________________
 |                |
 |  Preprocessor  |    $ g++ -E main.cpp > main.i 
