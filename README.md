@@ -4,7 +4,7 @@ How many times your TM (your personal Computer) can
 count in a limited time (Assume for 1 Second)?
 
 ## Answer
-The main executable Counts about 600 million times
+The main executable counts approximately 600 million times
 in a 2nd thread! (1st thread is the Main thread):
 "TM Main counted 600000000 times in 1.0003 second!"
 #### Note 0: Human being can count up to 10 in the same amount of time!    
@@ -16,7 +16,7 @@ in a 2nd thread! (1st thread is the Main thread):
 
  #### Note1: counter.cpp code is embedded into main.cpp code.   
 
-##Compilation Process:
+## Compilation Process:
 
     main.cpp    // The Source code 
         |       // $ ls -l main.cpp
