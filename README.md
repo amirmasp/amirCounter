@@ -19,11 +19,14 @@ in a 2nd thread! (1st thread is the Main thread):
 ## Compilation Process:
    main.cpp: The Source code         
    `$ ls -l main.cpp`
-   
-   894
-        
-       
-    _________ 
+   size: 894
+           
+     ______|______
+    |Preprocessor|
+    |____________| 
+           |  
+   main.i
+    
 |                |
 |  Preprocessor  |    $ g++ -E main.cpp > main.i 
 |  (precompiler) |    
