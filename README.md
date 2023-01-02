@@ -17,14 +17,12 @@ in a 2nd thread! (1st thread is the Main thread):
  #### Note1: counter.cpp code is embedded into main.cpp code.   
 
 ## Compilation Process:
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |     
+| Tables        |
+| ------------- |:
+     
 
 
-|
+
 
     main.cpp    // The Source code 
         |       // $ ls -l main.cpp
