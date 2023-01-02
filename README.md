@@ -32,10 +32,10 @@ graph TD;
 ```
 And Output is `main`, a binary executable file.
 ### Source Code
+
 `main.cpp`
 
-
-written by "AmirM".
+Written by "amirmasp".
 
  Note1: counter.cpp code is embedded into main.cpp source code. 
 
