@@ -82,8 +82,9 @@ Note2: In our experiment we use thread library, so use this command:
  
 `$ g++ -C main.cpp -pthread -std=c++14` 
 
+`$ ls -l a.out`
 
-
+size: 36464
 
 
 
