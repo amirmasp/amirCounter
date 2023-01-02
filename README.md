@@ -17,6 +17,7 @@ in a 2nd thread! (1st thread is the Main thread):
  #### Note1: counter.cpp code is embedded into main.cpp code.   
 
 ## Compilation Process:
+Comipation flow chart
 ```mermaid
 graph TD;
     Preprocessor-->Compiler;
