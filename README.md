@@ -20,7 +20,7 @@ in a 2nd thread! (1st thread is the Main thread):
 ## Compilation Process
 ####Compilation flow chart:
 
-Where, Input is `main.cpp`, source code. 
+Where, Input is `main.cpp`, Source code. 
 ```mermaid
 graph TD;
     Input-->Preprocessor ;
@@ -30,7 +30,7 @@ graph TD;
     Linker-->Output ;
     
 ```
-and output is `main`, executable.
+And Output is `main`, binary executable.
 ### Source Code
 `main.cpp`
 
