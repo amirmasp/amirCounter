@@ -11,6 +11,7 @@ in a 2nd thread! (1st thread is the Main thread):
 
 ## Instruction to run the program
 `$ g++ main.cpp -o main -pthread -std=c++14`
+
 `$ ./main`
 
     Note1: that counter.cpp is Linked using Linker <>
