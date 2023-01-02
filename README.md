@@ -37,7 +37,7 @@ And Output is `main`, a binary executable file.
 
 `$ ls -l main.cpp`
 
-Size: 894
+size: 894
 
 
 Written by "amirmasp".
@@ -55,7 +55,7 @@ This file is much larger than the source code file.
 
 `$ ls -l main.i`
 
-Size: 999555
+size: 999555
 
 
 
@@ -68,9 +68,13 @@ A Compiler does Transform the preprocessed code`main.i`to an assembly code `main
 
 `$ ls -l main.s` 
 
-Size: 106544
+size: 106544
 
 ### Assembler
+
+`$ g++ -C main.cpp`
+
+
 
 
 ### Linker
