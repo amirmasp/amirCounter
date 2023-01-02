@@ -74,6 +74,8 @@ size: 106544
 
 `$ g++ -C main.cpp`
 
+An Assembler generates a machine code `a.out` given the assembly code `main.s`.  
+
 
 
 
