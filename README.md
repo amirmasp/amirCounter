@@ -24,7 +24,16 @@ graph TD;
     Assembler-->Linker;
     
 ```
+### Preprocessor
 
+
+### Compiler
+
+
+### Assembler
+
+
+### Linker
 
 
 
