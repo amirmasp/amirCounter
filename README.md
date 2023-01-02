@@ -27,11 +27,16 @@ graph TD;
 ```
 ### Source Code
 `main.cpp`
+written by "AmirM"
 
- Note1: counter.cpp code is embedded into main.cpp code. 
+ Note1: counter.cpp code is embedded into main.cpp source code. 
 
 ### Preprocessor
-Takes the source code, main.cpp
+A Preprocessor Function Transforms the Source code into a preprocessed code
+`main.i`
+`$ g++ -E main.cpp > main.i`
+
+
 
 ### Compiler
 
