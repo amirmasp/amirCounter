@@ -19,8 +19,9 @@ in a 2nd thread! (1st thread is the Main thread):
 ## Compilation Process:
    main.cpp: The Source code         
    `$ ls -l main.cpp`
-   size: 894
-           
+   
+   894
+   
      ______|______
     |Preprocessor|
     |____________| 
