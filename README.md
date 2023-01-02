@@ -22,9 +22,11 @@ Compilation flow chart:
 input is `main.cpp` and output is `main`
 ```mermaid
 graph TD;
+    Input-->Preprocessor ;
     Preprocessor-->Compiler;
     Compiler-->Assembler ;
     Assembler-->Linker;
+    Linker-->Output ;
     
 ```
 ### Source Code
