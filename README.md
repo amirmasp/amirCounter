@@ -36,6 +36,8 @@ And Output is `main`, a binary executable file.
 `main.cpp`
 
 Written by "amirmasp".
+Size: 865
+`$ ls -l main.cpp`
 
  Note1: counter.cpp code is embedded into main.cpp source code. 
 
@@ -45,10 +47,11 @@ A Preprocessor function Transforms the source code `main.cpp` into a preprocesse
 
 `$ g++ -E main.cpp > main.i`
 
-This file is much larger than source file.
+This file is much larger than the source code file.
 
+Size: 999555
 `$ ls -l main.i`
-`size: 999555`
+
 
 
 
