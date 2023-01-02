@@ -53,13 +53,22 @@ A Preprocessor function Transforms the source code `main.cpp` into a preprocesse
 
 This file is much larger than the source code file.
 
+`$ ls -l main.i`
+
 Size: 999555
 
-`$ ls -l main.i`
+
 
 
 ### Compiler
 
+A Compiler does Transform the preprocessed code`main.i`to an assembly code `main.s`.
+
+`$ g++ -S main.cpp`
+
+`$ ls -l main.s` 
+
+Size: 106544
 
 ### Assembler
 
@@ -93,8 +102,8 @@ __________________
         |
        \|/
         |
-      main.s   // The Assembly code
-        |      // $ ls -l main.s 
+      main.s   // 
+        |      // $ 
         |      size: 106546
        \|/
         |
