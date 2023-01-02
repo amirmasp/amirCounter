@@ -17,14 +17,27 @@ in a 2nd thread! (1st thread is the Main thread):
  #### Note1: counter.cpp code is embedded into main.cpp code.   
 
 ## Compilation Process:
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+
+
+
    main.cpp: The Source code         
    `$ ls -l main.cpp` 
    
          main.cpp
-     ______|______
+            |
+     ______\|/______
     |Preprocessor|
     |____________| 
-           |  
+           /|\
+            |  
          main.i
     
 |                |
