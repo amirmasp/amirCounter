@@ -10,7 +10,7 @@ in a 2nd thread! (1st thread is the Main thread):
 
 ##### Note 0: Human being can count up to 10 in the same amount of time!    
 
-Instruction to run the program:
+Instruction to run the program:`\n`
 `$ g++ main.cpp -o main -pthread -std=c++14`
 `$ ./main`
 
