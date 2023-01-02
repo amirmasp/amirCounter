@@ -74,7 +74,8 @@ size: 106544
 
 `$ g++ -C main.cpp`
 
-An Assembler generates a machine code `a.out` given the assembly code `main.s`.  
+An Assembler generates a machine code `a.out` given the assembly code `main.s`.
+(the Object code == the machine code == binary code)
 
 
 
