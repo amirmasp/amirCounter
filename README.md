@@ -78,7 +78,7 @@ An Assembler generates a machine code `a.out` given the assembly code `main.s`.
 
 Note1.5: the Object code == the machine code == binary code
 
-Note2: In our experiment we use <thread> library, so use this command:
+Note2: In our experiment we use thread library, so use this command:
  
 `$ g++ -C main.cpp -pthread -std=c++14` 
 
