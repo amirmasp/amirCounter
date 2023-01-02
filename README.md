@@ -42,8 +42,6 @@ Size: 894
 
 Written by "amirmasp".
 
-
-
  Note1: counter.cpp code is embedded into main.cpp source code. 
 
 ### Preprocessor
@@ -56,10 +54,8 @@ A Preprocessor function Transforms the source code `main.cpp` into a preprocesse
 This file is much larger than the source code file.
 
 Size: 999555
+
 `$ ls -l main.i`
-
-
-
 
 
 ### Compiler
