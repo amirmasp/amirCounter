@@ -27,14 +27,22 @@ graph TD;
 ```
 ### Source Code
 `main.cpp`
+
+
 written by "AmirM"
 
  Note1: counter.cpp code is embedded into main.cpp source code. 
 
 ### Preprocessor
-A Preprocessor Function Transforms the Source code into a preprocessed code
+A Preprocessor function Transforms the Source code into a preprocessed code
 `main.i`
 `$ g++ -E main.cpp > main.i`
+
+This file is much larger than source file.
+
+`$ ls -l main.i`
+`size: 999555`
+
 
 
 
