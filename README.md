@@ -1,9 +1,9 @@
 # Experiment: 
-    ## Problem:
+## Problem:
     How many times your TM (your personal Computer) can 
     count in a limited time (Assume for 1 Second)?
     .
-    ## Answer:
+## Answer:
     The main.cpp program Counted 600 million times
     in a 2nd thread! (1st thread is the Main thread):
         "TM Main counted 600000000 times in 1.0003 second!"
