@@ -90,63 +90,16 @@ size: 36464
 
 ### Linker
 
+The Linker links object files and libraries and generates the final executable file `main`.
 
+### Output
 
-   main.cpp: The Source code       
-    
-|                |
-|  Preprocessor  |    $ g++ -E main.cpp > main.i 
-|  (precompiler) |    
-|________________|      
-        |
-        |
-       \|/
-        |
-      main.i   // The preprocessed code
-        |      // $ ls -l main.i
-        |      size: 999555
-       \|/
-        |
-__________________
-|                |
-|   Compiler     |    $ g++ -S main.cpp  
-|                |  
-|________________|
+`main`
 
-        |
-        |
-       \|/
-        |
-      main.s   // 
-        |      // $ 
-        |      size: 106546
-       \|/
-        |
-__________________
-|                |
-|   Assembler    |   // $ g++ -C main.cpp  
-|                |  // Note2: In our experiment we use <thread> library, so use this command:
-|________________|  //$ g++ -C main.cpp -pthread -std=c++14
+`$ ls -l main`
 
-        |
-        |
-       \|/
-        |
-      a.out   // Object code (the machine code, binary code)
-        |     // ls -l a.out
-        |     size: 36464
-       \|/
-        |
-__________________
-|                |
-|     Linker     |    // The Linker links source files and libraries
-|                |    // and produces final executable file, main. 
-|________________|
+size: 36672
 
-        |
-        |
-       \|/
-        |
-      main     // The Executable (The Runnable File)
-               // $ ls -l main
-               size: 36672 
+Note3: final executable file `main` is larger than machine code `a.out`.
+
+   
