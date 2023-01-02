@@ -19,10 +19,10 @@ in a 2nd thread! (1st thread is the Main thread):
 ## Compilation Process:
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    Preprocessor-->Compiler;
+    Compiler-->Assembler ;
+    Assembler-->Linker;
+    
 ```
 
 
