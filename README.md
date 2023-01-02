@@ -18,9 +18,9 @@ in a 2nd thread! (1st thread is the Main thread):
   
 
 ## Compilation Process
-Compilation flow chart:
+####Compilation flow chart:
 
-Where Input is `main.cpp` source code and output is `main`executable.
+Where Input is `main.cpp` source code 
 ```mermaid
 graph TD;
     Input-->Preprocessor ;
@@ -30,6 +30,7 @@ graph TD;
     Linker-->Output ;
     
 ```
+and output is `main`executable.
 ### Source Code
 `main.cpp`
 
