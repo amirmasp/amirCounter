@@ -35,11 +35,14 @@ And Output is `main`, a binary executable file.
 
 `main.cpp`
 
-Written by "amirmasp".
+`$ ls -l main.cpp`
 
 Size: 865
 
-`$ ls -l main.cpp`
+
+Written by "amirmasp".
+
+
 
  Note1: counter.cpp code is embedded into main.cpp source code. 
 
