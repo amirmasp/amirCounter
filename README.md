@@ -31,7 +31,7 @@ graph TD;
     
 ```
 And Output is `main`, a binary executable file.
-### Source Code
+### Source Code (or Input)
 
 `main.cpp`
 
