@@ -25,8 +25,11 @@ graph TD;
     Assembler-->Linker;
     
 ```
-### Preprocessor
+### Source Code
+`main.cpp`
 
+### Preprocessor
+Takes the source code, main.cpp
 
 ### Compiler
 
@@ -38,17 +41,7 @@ graph TD;
 
 
 
-   main.cpp: The Source code         
-   `$ ls -l main.cpp` 
-   
-         main.cpp
-            |
-     ______\|/______
-    |Preprocessor|
-    |____________| 
-           /|\
-            |  
-         main.i
+   main.cpp: The Source code       
     
 |                |
 |  Preprocessor  |    $ g++ -E main.cpp > main.i 
