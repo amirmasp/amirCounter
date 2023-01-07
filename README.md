@@ -42,7 +42,7 @@ size: 894
 
 Written by "amirmasp".
 
- Note1: counter.cpp code is embedded into main.cpp source code. 
+ Note2: counter.cpp code is embedded into main.cpp source code. 
 
 ### Preprocessor
 
@@ -76,9 +76,9 @@ size: 106544
 
 An Assembler generates a machine code `a.out` given the assembly code `main.s`.
 
-Note1.5: the Object code == the machine code == binary code
+Note3: the Object code == the machine code == binary code
 
-Note2: In our experiment we use thread library, so use this command:
+Note4: In our experiment we use thread library, so use this command:
  
 `$ g++ -C main.cpp -pthread -std=c++14` 
 
@@ -100,6 +100,6 @@ The Linker links object files and libraries and generates the final executable f
 
 size: 36672
 
-Note3: final executable file `main` is larger than machine code `a.out`.
+Note5: final executable file `main` is larger than machine code `a.out`.
 
    
