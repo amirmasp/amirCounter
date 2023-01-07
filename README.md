@@ -20,7 +20,7 @@ in a 2nd thread! (1st thread is the Main thread):
 ## Compilation Process
 #### Compilation flow chart:
 
-Where, Input is `main.cpp`, a source code file. 
+Where, Input is `main.cpp`, a source code file in c++ language. 
 ```mermaid
 graph TD;
     Input-->Preprocessor ;
