@@ -100,6 +100,6 @@ The Linker links object files and libraries and generates the final executable f
 
 size: 36672
 
-Note5: final executable file `main` is larger than machine code `a.out`.
+Note5: final executable file `main` is larger than machine code `a.out`. Because Linker added library codes with machine codes.
 
    
