@@ -9,8 +9,7 @@ in a 2nd thread! (1st thread is the Main thread):
 
 "TM main counts 600000000 times in 1.0003 second!"
 ##### Note0: Human being can count up to 7 in the same amount of time(1 Second)!    
-##### Note1: Machines are much stronger than us because they live in different time scal than us. 
-1 second in our worl Is perceived 10 nano second in machine world!
+##### Note1: Machines are much stronger than us because they live in different time scal than us. 1 second in our world is perceived 10 nano second in the machines world!
 ## Instruction to run the program
 `$ g++ main.cpp -o main -pthread -std=c++14`
 
