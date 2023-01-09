@@ -7,7 +7,8 @@ count upward, starts from 0, in a limited time (Assume for 1 Second)?
 The `main.exe` is an executable TM that counts approximately 600 million times
 in approximately 1 second!
 
-"TM main counts 600000000 times in 1.0003 second!"
+#### Output:
+ `TM main counts 600000000 times in 1.0003 second!`
 ##### Note0: Human being can count up to 7 in the same amount of time(1 Second)!    
 ##### Note1: Machines are much stronger than us because they live in different time scale than us. 1 second in our world is perceived 10 nano second in the machines world!
 ## Instruction to run the program
