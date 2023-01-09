@@ -1,4 +1,4 @@
-# Experiment : HOW fast can you count upward, start from zero in a limited time? 
+# Experiment : HOW fast can you count upward, starts from zero in a limited time? 
 ## Problem
 How many times your TM (your personal Computer) can 
 count upward, start from 0, in a limited time (Assume for 1 Second)?
