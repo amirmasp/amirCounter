@@ -4,8 +4,8 @@ How many times your TM (your personal Computer) can
 count upward, starts from 0, in a limited time (Assume for 1 Second)?
 
 ## Answer
-The `main.exe` is a program (TM) that counts approximately 600 million times
-in a 2nd thread! (1st thread is the Main thread):
+The `main.exe` is an executable TM that counts approximately 600 million times
+in approximately 1 second!
 
 "TM main counts 600000000 times in 1.0003 second!"
 ##### Note0: Human being can count up to 7 in the same amount of time(1 Second)!    
