@@ -8,29 +8,38 @@ int main() {
    // Patameter n is tunable
    long long int n = 300000000 ;
 
-   // number will be incremented from countFunc on thread t2
+   // Allocating heap memory
    int* number = new int();
+
+   // var number will be incremented from countFunc 
    *number = 0;
 
    auto start = std::chrono::high_resolution_clock::now();
   
-   // countFunc() is implemented inside counter.cpp
+   // countFunc() is embedded inside counter.cpp
    std::thread t2(countFunc, number, n);
 
-   // Seconds are tunable
+   // Seconds are tunable.
+   // main thread sleeps for 1 second
+   // while thread t2 is working on .
    std::this_thread::sleep_for(1s);
    
-   // Concurrency: thread t2 joins thread t1. Thread t1 is main thread
+   // Concurrency
+   // Thread t2 joins to thread t1 after 1 second. 
+   // t1 is the main thread
    t2.join();
   
    auto end = std::chrono::high_resolution_clock::now();
 
-   // Calculate time
+   // Calculates time
    std::chrono::duration<float> duration = end - start;
+
+   // Print
    std::cout << duration.count() << "s " << std::endl;
    std::cout << "TM M counted " << *number; 
 	std::cout << " times in " << duration.count() << " second\n";
 
+   // Deallocating memory
    delete[] number;
 
 	return 0;
