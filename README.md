@@ -1,7 +1,7 @@
 # Experiment : HOW fast can you count upward, starts from zero? (In a limited amount of time)
 ## Problem
 How many times your TM (your personal Computer) can 
-count upward, start from 0, in a limited time (Assume for 1 Second)?
+count upward, starts from 0, in a limited time (Assume for 1 Second)?
 
 ## Answer
 The `main.exe` is a program (TM) that counts approximately 600 million times
