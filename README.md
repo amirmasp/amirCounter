@@ -4,8 +4,8 @@ How many times your TM (your personal Computer) can
 count upward, starts from 0, in a limited time (Assume for 1 Second)?
 
 ## Answer
-The `main.exe` is an executable TM that counts approximately 600 million times
-in approximately 1 second!
+The `main.exe` is an executable, source code was written in C++, that counts approximately 600 million times
+in 1 second!
 
 #### Output:
  `TM main counts 600000000 times in 1.0003 second!`
